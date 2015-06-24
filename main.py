@@ -1,5 +1,5 @@
-import encode
-import decode
+from decode_image import encode
+from decode_image import decode
 import argparse
 import sys
 import os

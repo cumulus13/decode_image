@@ -19,7 +19,7 @@ setup(
 		url				= 'https://codecumulus13.wordpress.com',
 		download_url    = 'https://github.com/cumulus13/decode_image/archive/{0}.tar.gz'.format(VERSION),
 		keywords 		= ['decode', 'encode', 'cli', 'command line'],
-		# packages		= ['keyserver'],
+		packages		= ['decode_image'],
 		scripts			= ['main.py'],
 		classifiers 	= [
           'Environment :: Console',
