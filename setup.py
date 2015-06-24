@@ -3,6 +3,7 @@
 """ decode_image installation script """
 
 VERSION = '1.0'
+TEST	= '0.4b'
 
 try:
 	from distutils.core import setup
@@ -18,7 +19,7 @@ setup(
 		author_email	= 'licface@yahoo.com',
 		url				= 'https://codecumulus13.wordpress.com',
         platforms       = ['any'],
-		download_url    = 'https://github.com/cumulus13/decode_image/archive/{0}.tar.gz'.format(VERSION),
+		download_url    = 'https://github.com/cumulus13/decode_image/archive/v{0}(t{1}).tar.gz'.format(VERSION, TEST),
 		keywords 		= ['decode', 'encode', 'cli', 'command line'],
 		packages		= ['decode_image'],
 		scripts			= ['decode_image.py'],
